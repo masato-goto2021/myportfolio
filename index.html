@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="animate.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<!--ヘッダー-->
+<header>
+<!--メニューバー-->
+<div class="button_container" id="toggle">
+  <span class="top"></span>
+  <span class="middle"></span>
+  <span class="bottom"></span>
+</div>
+
+<div class="overlay" id="overlay">
+  <nav class="overlay-menu">
+    <ul>
+      <li><a href="#" class="menu_aboutme">About Me</a></li>
+      <li><a href="#" class="menu_service">Service</a></li>
+      <li><a href="#" class="menu_works">Works</a></li>
+      <li><a href="#" class="menu_contact">Flow</a></li>
+    </ul>
+  </nav>
+</div>
+
+
+</header>
+
+<!--タイトル-->
+<div class="my_introduction">
+    <h1 class="myname">Masato GOTO's Portfolio</h1>
+    <p class="worker_type">- Web Engineer -</p>
+</div>
+
+<div class="main_content">
+<!-- 自己紹介 -->
+<div class="profile_section">
+
+  <div class="portfolio_title profile_title animated fadein">
+    <span class="glyphicon glyphicon-user" style="letter-spacing:5px;"></span> <p>About Me</p>
+  </div>
+
+  <div class="profile_image flexbox1 animated fadein" >
+    <img src="./image/☆myphoto.jpg" alt="myprofile"/>
+  </div>
+
+  <div class="sub_title animated fadein">
+    <span class="glyphicon glyphicon-apple" style="letter-spacing:5px;"></span> <p>Introduction</p>
+  </div>
+  <div class="introduction_text animated fadein">
+    <p>
+    初めまして。Webエンジニアの<span style="font-weight: bold">後藤雅登</span>と申します。<br><br>
+    現在フロントエンドを中心に、Webサイト制作を行なっております。<br><br>
+    「<span style="font-weight: bold; color:orange;">クオリティ</span>」と「<span style="font-weight:bold; color:orange;">スピード</span>」を重視し、お客様の期待を上回るサイトを制作いたします。<br><br>
+    <!--また、お客様に寄り添った<span style="font-weight:bold;color:red;">丁寧なコミュニケーション</span>を常に心がけ、-->
+    <span style="font-weight:bold;color:orange;">最後まで責任を持って</span>仕事に取り組ませていただきます。
+    </p>
+  </div>
+
+  <div class="sub_title animated fadein">
+    <span class="glyphicon glyphicon-education" style="letter-spacing:5px;"></span> <p>Educartions</p>
+  </div>
+
+  <div class="introduction_text animated fadein">
+    <p>
+      1996年：三重県桑名市出身<br><br>
+      2014年：三重県四日市高等学校卒業<br><br>
+      2018年：京都大学工学部地球工学科卒業<br><br>
+      2020年：京都大学大学院都市社会工学研究科卒業<br><br>
+      留学経験：フィリピン・バギオ（語学留学2か月間）、タイ・バンコク（交換留学1か月間）<br>
+      <!--（国内学会2本 / 国際学会3本 / ジャーナル論文3本執筆）<br><br>-->
+      <!-- 2019年：大手通信会社に入社<br><br> -->
+      <!--プログラミングスクールTechAcademyの「フロントエンドコース」「Webアプリケーションコース」「Wordpressコース」「Webデザインコース」
+      「PHP/Laravelコース」「Pythonコース」「データサイエンスコース」「AIコース」を3ヶ月で修了-->
+    </p>
+  </div>
+
+</div>
+
+  <!-- スキル紹介 -->
+<div class="skill_section">
+  <div class="portfolio_title skill_title">
+    <span class="glyphicon glyphicon-cog" style="letter-spacing:5px;"></span><p>Skills</p>
+  </div>
+
+<div class="introduction_text">
+    <div class="skill">
+      <img src="./image/HTML.jpg" alt="frontend languages" />
+      <p>Level: ★★★★★</p>
+    </div>
+
+    <div class="skill">
+      <img src="./image/CSS.jpg" alt="frontend languages" />
+        <p>Level: ★★★★★</p>
+    </div>
+
+    <div class="skill">
+      <img src="./image/Javascript.jpg" alt="frontend languages" />
+      <p>Level: ★★★★★<br>
+      </p>
+    </div>
+
+    <div class="skill">
+      <img src="./image/Wordpress.jpg" alt="Wordpress" />
+        <p>Level: ★★★★★</p>
+    </div>
+<!--
+    <div class="skill">
+      <img src="./image/Ruby.jpg" alt="Rails" />
+      <p>Level: ★★★★☆<br>
+      </p>
+    </div>
+
+    <div class="skill">
+      <img src="./image/Laravel.jpg" alt="Laravel" />
+      <p>Level: ★★★★★<br>
+      </p>
+    </div>
+
+    <div class="skill">
+      <img src="./image/Python.jpg" alt="machine learning language" />
+      <p>Level: ★★★☆☆<br>
+      </p>
+    </div>
+
+    <div class="skill">
+      <img src="./image/MySQL.jpg" alt="MySQL" />
+        <p>Level: ★★★★☆</p>
+    </div>
+
+    <div class="skill">
+      <img src="./image/github.jpg" alt="github" />
+        <p>Level: ★★★★★</p>
+    </div>
+    -->
+ </div>
+</div>
+
+<!-- サービス紹介 -->
+<div class="service_section">
+<div class="portfolio_title skill_title">
+  <span class="glyphicon glyphicon-globe" style="letter-spacing:5px;"></span><p>Service</p>
+</div>
+
+<div>
+  <div class="service_item">
+    <div class="service_image">
+      <img src="./image/Coding.png" alt="coding" />
+    </div>
+    <div class="sub_title">
+      <p>コーディング</p>
+    </div>
+
+    <div class="service_content">
+      LPやコーポレートサイト、ブログなど、
+      目的に応じた適切なコーディングを行います(レスポンシブ対応可)。また、軽微なコードの修正などにも対応いたします。<br><br>
+      【料金目安】<br>
+      コード修正: ¥10,000~/1p<br>
+      LP制作: ¥20,000~/1p
+    </div>
+  </div>
+
+  <div class="service_item">
+    <div class="service_image">
+      <img src="./image/design.png" alt="web design" />
+    </div>
+    <div class="sub_title">
+      <p>Webデザイン</p>
+    </div>
+    <div class="service_content">
+      ヒアリングにより、ご要望に沿ったデザインを的確に把握し作成いたします。
+      ユーザーインターフェースを重要視した設計を行い、ご期待を超えるデザインを提供します。<br><br>
+      【料金目安】<br>
+      LP制作: ¥30,000~/1p<br>
+      コーポレートサイト (10p以下): ¥80,000~
+    </div>
+  </div>
+
+    <div class="service_item">
+      <div class="service_image">
+        <img src="./image/Wordpress.jpg" alt="wordpress" />
+      </div>
+      <div class="sub_title">
+        <p>Wordpress</p>
+      </div>
+      <div class="service_content">
+        コーポレートサイトや個人ブログなどのWordPressサイトの構築や既存サイトのWordPress移行、コードの修正に対応しております。
+        <br><br>
+        【料金目安】<br>
+        Wordpress移行: ¥100,000~<br>
+        Wordpress制作: ¥200,000~
+      </div>
+    </div>
+    <p style="font-size:18px;">※正式なお見積もりは、別途ご相談させていただきます。</p>
+  </div>
+
+</div>
+
+<!--Webサイト　ポートフォリオ-->
+<div class="portfolio_section">
+  <div class="portfolio_title works_title">
+    <span class="glyphicon glyphicon-list-alt" style="letter-spacing:5px;"></span><p>Works</p>
+  </div>
+
+<div>
+    <a href="#" class="portfolio_link">
+    <div class="portfolio">
+    	<img src="./image/my-portfolio4.png" alt="portfolio" />
+    	<div class="mask1"></div>
+    	<div class="mask2"></div>
+    	<div class="caption">
+    		<p><br>【Title】Masato GOTO's Portfolio<br><br>
+          【Skill】HTML / CSS / JQuery<br><br>
+          【Detail】私のことをよく知って頂くためのサイトです。
+        </p>
+    	</div>
+    </div>
+    </a>
+
+    <a href="https://gokuraku-tei-2021.com/" class="portfolio_link">
+    <div class="portfolio">
+      <img src="./image/gokurakutei4.png" alt="portfolio" />
+      <div class="mask1"></div>
+      <div class="mask2"></div>
+      <div class="caption">
+        <p><br>【Title】Movie Collections<br><br>
+          【Skill】HTML / CSS / JQuery<br><br>
+          【Detail】架空温泉旅館の公式HPです。
+        </p>
+      </div>
+    </div>
+    </a>
+
+    <a href="https://tabi-channel.herokuapp.com/" class="portfolio_link">
+    <div class="portfolio">
+      <img src="./image/TabiChannel.png" alt="portfolio" />
+      <div class="mask1"></div>
+      <div class="mask2"></div>
+      <div class="caption">
+        <p><br>【Title】 Tabi Channel<br><br>
+          【Skill】 HTML / CSS / JQuery / Ruby on Rails<br><br>
+          【Detail】旅好き同士が交流できる掲示板サービスです。
+        </p>
+      </div>
+    </div>
+    </a>
+
+  </div>
+</div>
+
+
+
+
+<footer>
+
+
+<!--Flow 制作の流れ-->
+<div class="flow_section">
+  <div class="portfolio_title flow_title">
+    <span class="glyphicon glyphicon-list-alt" style="letter-spacing:5px;"></span><p>Flow</p>
+  </div>
+  <div class="flow-cont">
+    <div class="step-cont">
+      <div class="step">STEP1</div>
+      <div class="step-description">お問い合わせ</div>
+      <p class="step-detail">メールボタンからお気軽にお問い合わせ ・ご相談ください。</p>
+    </div>
+    <i class="icon material-icons sd">navigate_next</i>
+    <div class="step-cont">
+      <div class="step">STEP2</div>
+      <div class="step-description">打合せ</div>
+      <p class="step-detail">イメージや目的などをヒアリングし、大まかなレイアウトを決めてお見積もりを出させていただきます。</p>
+    </div>
+    <i class="icon material-icons sd">navigate_next</i>
+    <div class="step-cont">
+      <div class="step">STEP3</div>
+      <div class="step-description">制作</div>
+      <p class="step-detail">ご契約後、認識を合わせながらお客様の目的に合わせた制作を進めさせていただきます。適宜進捗を連絡いたします。</p>
+    </div>
+    <i class="icon material-icons sd">navigate_next</i>
+    <div class="step-cont">
+      <div class="step">STEP4</div>
+      <div class="step-description">納品</div>
+      <p class="step-detail">実装したホームページをご確認いただき、修正などがなければ納品となります。納品から30日間は無償で対応いたします。</p>
+    </div>
+  </div>
+</div>
+
+
+  <p class="contact_text">お気軽にお問い合わせ ・ご相談ください。<br class="br-sp">24時間以内に必ずご返信いたします。</p>
+  <p class="contact_text2">Twitterのフォロワー数は1000人以上です。ご覧いただけると幸いです。</p>
+
+    <!--SNSアイコン-->
+    <div>
+    <ul class="follow-me">
+      <li><a href="mailto:yuzi0x14@gmail.com?body=ご依頼/ご相談内容" class="gmail"></a></li>
+      <li><a href="https://twitter.com/kame_gt_blog" class="twitter"></a></li>
+    </ul>
+    </div>
+    <!--コピーライト-->
+    <div id="copyright">
+      Copyright &copy; 2021 Masato GOTO's Portfolio All Rights Reserved.
+    </div>
+</footer>
+</div>
+      <script src="vendor/jquery-2.2.4.min.js"></script>
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+      <script src="bootstrap/js/bootstrap.js"></script>
+      <script src="vendor/jquery.waypoints.min.js"></script>
+      <script src="vendor/jquery.magnific-popup.min.js"></script>
+      <script src="vendor/mobile-detect.min.js"></script>
+      <script src="main.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script src="jquery.waypoints.min.js"></script>
+
+</body>
+
+</html>
