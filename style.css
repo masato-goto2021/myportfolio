@@ -332,6 +332,9 @@ body {
 .skill p {
   margin-top: 10px;
 }
+.snow-monkey img {
+  background-color: white;
+}
 
 /* サービス紹介 */
 .service_item {
