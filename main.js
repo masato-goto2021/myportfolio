@@ -31,8 +31,8 @@ $('.menu_works').click(function() {
   $("#toggle").toggleClass("active");
 });
 
-$('.menu_contact').click(function() {
-  $("html,body").animate({scrollTop:$(".contact_title").offset().top});
+$('.menu_flow').click(function() {
+  $("html,body").animate({scrollTop:$(".flow_section").offset().top});
   $('#overlay').removeClass("open");
   $('html div').removeClass("blur");
   $("#toggle").toggleClass("active");
