@@ -186,7 +186,7 @@ body {
 /*タイトル*/
 .my_introduction {
   margin: 0 auto;
-  background-image: url("image/☆toppage01.jpg");
+  background-image: url("image/☆toppage01-min.jpg");
   background-size: cover;
   padding: 300px 0 300px 0;
   color: black;
@@ -332,6 +332,9 @@ body {
 .skill p {
   margin-top: 10px;
 }
+.php img {
+  background-color: white;
+}
 .snow-monkey img {
   background-color: white;
 }
@@ -451,7 +454,7 @@ body {
 footer {
   color: black;
   padding-bottom: 20px;
-  background-image: url("image/☆toppage19.jpg");
+  background-image: url("image/☆toppage19-min.jpg");
   background-size: cover;
   padding-top: 30px;
 }
@@ -634,11 +637,11 @@ footer {
 
 @media screen and (min-width: 500px) {
   .profile_section {
-    background-image: url("image/☆toppage02-2.jpg");
+    background-image: url("image/☆toppage02-2-min.jpg");
     background-size: cover;
   }
   .skill_section {
-    background-image: url("image/☆toppage03.jpg");
+    background-image: url("image/☆toppage03-min.jpg");
     background-size: cover;
   }
   .portfolio {
@@ -650,7 +653,7 @@ footer {
     font-size: 150%;
   }
   .portfolio_section {
-    background-image: url("image/☆toppage07-2.jpg");
+    background-image: url("image/☆toppage07-2-min.jpg");
     background-size: cover;
   }
   .skill {
@@ -670,7 +673,7 @@ footer {
   }
 
   footer {
-    background-image: url("image/☆toppage19-2.jpg");
+    background-image: url("image/☆toppage19-2-min.jpg");
   }
 
   .flow-cont {
@@ -690,11 +693,11 @@ footer {
 }
 @media screen and (min-width: 768px) {
   .profile_section {
-    background-image: url("image/☆toppage02-3.jpg");
+    background-image: url("image/☆toppage02-3-min.jpg");
     background-size: cover;
   }
   .skill_section {
-    background-image: url("image/☆toppage03.jpg");
+    background-image: url("image/☆toppage03-min.jpg");
     background-size: cover;
   }
   .portfolio {
@@ -706,7 +709,7 @@ footer {
     font-size: 120%;
   }
   .portfolio_section {
-    background-image: url("image/☆toppage07.jpg");
+    background-image: url("image/☆toppage07-min.jpg");
     background-size: cover;
   }
   .skill {
@@ -741,11 +744,11 @@ footer {
 }
 @media screen and (min-width: 1024px) {
   .profile_section {
-    background-image: url("image/☆toppage02.jpg");
+    background-image: url("image/☆toppage02-min.jpg");
     background-size: cover;
   }
   .skill_section {
-    background-image: url("image/☆toppage03.jpg");
+    background-image: url("image/☆toppage03-min.jpg");
     background-size: cover;
   }
   .portfolio {
@@ -757,7 +760,7 @@ footer {
     font-size: 130%;
   }
   .portfolio_section {
-    background-image: url("image/☆toppage07.jpg");
+    background-image: url("image/☆toppage07-min.jpg");
     background-size: cover;
   }
   .skill {
@@ -776,7 +779,7 @@ footer {
     background-size: cover;
   }
   footer {
-    background-image: url("image/☆toppage19.jpg");
+    background-image: url("image/☆toppage19-min.jpg");
   }
 
   .flow-cont {
